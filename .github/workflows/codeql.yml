@@ -56,7 +56,7 @@ jobs:
         # queries: security-extended,security-and-quality, ./comp3310-queries/example.ql
 
     - name: Initialize CodeQL Local
-      uses: github/codeql-action/init@v2
+      uses: github/codeql-action/analyze@v2
       with:
         languages: ${{ matrix.language }}
         queries: ../comp3310-queries
