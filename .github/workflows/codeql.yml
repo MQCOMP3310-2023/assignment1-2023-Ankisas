@@ -60,7 +60,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         queries: ./comp3310-queries
-        config-file: ./codeql.analysis.yml
+        config-file: ./comp3310-queries/codeql.analysis.yml
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
