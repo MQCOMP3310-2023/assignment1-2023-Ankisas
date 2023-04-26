@@ -1,8 +1,8 @@
 /**
- * @name Comp3310 workshop 6 query
+ * @name Throwable objects need to be logged
  * @kind problem
  * @problem.severity warning
- * @id java/example/empty-block
+ * @id java/throwable-object
  */
 
  import java
