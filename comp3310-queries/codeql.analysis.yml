@@ -3,4 +3,4 @@ paths:
 
 queries:
   - uses: security-and-quality
-  - "./comp3310-queries/throwable-object.ql"
+  - "./throwable-object.ql"
